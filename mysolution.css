@@ -198,7 +198,7 @@
 /* tredicesimo esercizio */
 
 .ex-13-button:hover .ex-13-top-white{
-    animation: forward-13-square 2s linear;
+    animation: forward-13-square 2s linear infinite;
 }
 
 @keyframes forward-13-square {
@@ -233,7 +233,7 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: backward-13-square 2s linear;
+    animation: backward-13-square 2s linear infinite;
 }
 
 @keyframes backward-13-square {
